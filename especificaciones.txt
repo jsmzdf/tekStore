@@ -1,0 +1,18 @@
+app web en asp.net framework
+.net Framework 4.7.2
+
+webService razor
+
+BD sqlServer
+
+SQL Server Management Studio						15.0.18384.0
+Objetos de administración de SQL Server (SMO)						16.100.46367.54
+Herramientas cliente de Microsoft Analysis Services						15.0.19535.0
+Microsoft Data Access Components (MDAC)						10.0.19041.1
+Microsoft MSXML						3.0 6.0 
+Microsoft .NET Framework						4.0.30319.42000
+Sistema operativo						10.0.19042
+
+
+producto:id, nobre,cantidad,precio
+pedido:id,nobre,rutdireccion,tel,cantidad,id_producto
