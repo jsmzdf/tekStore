@@ -53,7 +53,7 @@
            
 
         <div class="form-group">
-            <asp:Button ID="Button1" runat="server" Text="Ingresar" class="btn btn-primary" Height="51px" Width="124px" />
+            <asp:Button ID="Button1" runat="server" Text="Ingresar" class="btn btn-primary" OnClick="Button1_Click1"/>
         </div>
 
        
