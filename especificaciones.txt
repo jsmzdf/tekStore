@@ -5,10 +5,7 @@ webService razor
 	.net 5.0
 	http://localhost:62793/api/ClienteProductos/{id}
 BD sqlServer
-	inicio de sesion{
-		sesion: AdminStore
-		clave: 123abc
-	}
+	
 
 	SQL Server Management Studio						15.0.18384.0
 	Objetos de administración de SQL Server (SMO)				16.100.46367.54
@@ -17,8 +14,8 @@ BD sqlServer
 	Microsoft MSXML								3.0 6.0 
 	Microsoft .NET Framework						4.0.30319.42000
 	Sistema operativo							10.0.19042
-cadena de conexión(cambiar Data Source por su usuario de la BD
-		   si crear otro inicio de sesion cambiar user y password ){	
+
+cambiar cadena de conexión	
         "Data Source=LENOVO-PC;" +
             "Initial Catalog=BDStore;" +
             "User ID=AdminStore;" +
@@ -28,7 +25,7 @@ cadena de conexión(cambiar Data Source por su usuario de la BD
             "TrustServerCertificate=False;" +
             "ApplicationIntent=ReadWrite;" +
             "MultiSubnetFailover=False";
-	}
+	
 
 logos
 	tipo de letra keen	
