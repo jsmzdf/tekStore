@@ -1,18 +1,40 @@
 app web en asp.net framework
-.net Framework 4.7.2
-
+	.net Framework 4.7.2
+	
 webService razor
-
+	.net 5.0
+	http://localhost:62793/api/ClienteProductos/{id}
 BD sqlServer
+	inicio de sesion{
+		sesion: AdminStore
+		clave: 123abc
+	}
 
-SQL Server Management Studio						15.0.18384.0
-Objetos de administración de SQL Server (SMO)						16.100.46367.54
-Herramientas cliente de Microsoft Analysis Services						15.0.19535.0
-Microsoft Data Access Components (MDAC)						10.0.19041.1
-Microsoft MSXML						3.0 6.0 
-Microsoft .NET Framework						4.0.30319.42000
-Sistema operativo						10.0.19042
+	SQL Server Management Studio						15.0.18384.0
+	Objetos de administración de SQL Server (SMO)				16.100.46367.54
+	Herramientas cliente de Microsoft Analysis Services			15.0.19535.0
+	Microsoft Data Access Components (MDAC)					10.0.19041.1
+	Microsoft MSXML								3.0 6.0 
+	Microsoft .NET Framework						4.0.30319.42000
+	Sistema operativo							10.0.19042
+cadena de conexión(cambiar Data Source por su usuario de la BD
+		   si crear otro inicio de sesion cambiar user y password ){	
+        "Data Source=LENOVO-PC;" +
+            "Initial Catalog=BDStore;" +
+            "User ID=AdminStore;" +
+            "Password=123abc;" +
+            "Connect Timeout=30;" +
+            "Encrypt=False;" +
+            "TrustServerCertificate=False;" +
+            "ApplicationIntent=ReadWrite;" +
+            "MultiSubnetFailover=False";
+	}
 
-
-producto:id, nobre,cantidad,precio
-pedido:id,nobre,rutdireccion,tel,cantidad,id_producto
+logos
+	tipo de letra keen	
+	color ini #49abbc
+	color fin ##2F6F8B
+	color esquema #FFFFFF
+	tamano de los de navbar 20
+	tamaño del deafult 150
+	https://es.cooltext.com/Render-Image?RenderID=388441831599707&LogoId=3884418315
