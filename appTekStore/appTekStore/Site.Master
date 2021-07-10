@@ -41,28 +41,38 @@
 
         <div class="navbar navbar-light  navbar-fixed-top" style="background-color: #e3f2fd;">
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" runat="server" href="~/">
-                        <img src="IMG/cooltext388441831599707.png" />
-                        </a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/RealizarPedido">
-                            <img src="IMG/Pedir.png" />
-                            </a></li>
-                        <li><a runat="server" href="~/Consumows">
-                            <img src="IMG/Consultar.png" />
-                            </a></li>
-                       <!-- <li><a runat="server" href="~/Contact">Contacto</a></li>-->
-                    </ul>
-                </div>
-            </div>
+             <div class="row">
+                 <div class="col-md-6 col-md-offset-3">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" runat="server" href="~/">
+                                <img src="IMG/cooltext388441831599707.png" />
+                                </a>
+                        </div>
+               
+
+
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a runat="server" href="~/RealizarPedido">
+                                    <img src="IMG/Pedir.png" />
+                                    </a></li>
+                                <li><a runat="server" href="~/Consumows">
+                                    <img src="IMG/Consultar.png" />
+                                    </a></li>
+                               <!-- <li><a runat="server" href="~/Contact">Contacto</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+
+                  </div>
+             </div>
+
+
         </div>
         <br>
         <br>
@@ -73,7 +83,8 @@
             </asp:ContentPlaceHolder>
             <hr />
             
-            <footer>
+            
+            <footer >
                 <p>&copy; <%: DateTime.Now.Year %> - Tek Store</p>
             </footer>
         </div>
