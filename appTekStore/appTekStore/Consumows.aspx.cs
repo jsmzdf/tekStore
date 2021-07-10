@@ -41,18 +41,6 @@ namespace appTekStore
 
                             List<ConWS> estados_FAbarca = JsonConvert.DeserializeObject<List<ConWS>>(responseBody);
 
-                            /* JObject json = JObject.Parse(responseBody);
-
-                              foreach (var pr in json)
-                             {
-
-                                 ListBox1.Items.Add(pr.ToString());
-
-                             }
-
-                             */
-
-
                             foreach (var pr in estados_FAbarca)
                             {
 
@@ -62,7 +50,17 @@ namespace appTekStore
                                     "cantidad comprada" + pr.cantidad_Fabarca);
 
                             }
-                            
+                            /* JObject json = JObject.Parse(responseBody);
+
+                             foreach (var pr in json)
+                            {
+
+                                ListBox1.Items.Add(pr.ToString());
+
+                            }
+
+                            */
+
 
                         }
                     }

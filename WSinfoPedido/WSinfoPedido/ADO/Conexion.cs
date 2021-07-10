@@ -20,7 +20,7 @@ namespace WSinfoPedido.ADO
 
 
         List<consulta> respuesta = new List<consulta>();
-        //[WebMethod]
+      
         public List<consulta>  GetProductos_FAbarca(long rut)
         {
             //
